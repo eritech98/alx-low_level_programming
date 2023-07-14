@@ -2,8 +2,8 @@
 
 
 /**
-*main -Aprogramme that prints a line with put unction
-*Return :0(success)
+*main -Aprogramme that prints a line with put unctionr
+*Return: 0 (Success)
 */
 
 int main(void)
