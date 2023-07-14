@@ -1,7 +1,7 @@
 #include  <stdio.h>
 
 /**
-*main - A program that prints a line using  printif
+*main - A program that prints a line using printif
 *Return:0 (Success)
 */
 
