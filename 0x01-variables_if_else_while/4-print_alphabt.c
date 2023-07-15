@@ -13,9 +13,9 @@ int main(void)
 	y = 'a';
 
 	while
-	(y == 'a') {
+	(y == 'z') {
 		if ((y != 'q' && y != 'e') && y <= 'z')
-		putchar(y);
+		putchar(y)
 		y++;
 			}
 	putchar('\n');
