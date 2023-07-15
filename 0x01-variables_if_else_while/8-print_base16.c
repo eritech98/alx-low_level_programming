@@ -11,10 +11,10 @@ int main(void)
 	char h;
 
 	g = 'a';
-	h = '0';
+	h = '1';
 
 	while
-		(h < 20) { putchar(h + '0');
+		(h < 10) { putchar(h + '1');
 		h++;
 		}
 
