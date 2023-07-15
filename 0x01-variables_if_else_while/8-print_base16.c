@@ -8,9 +8,11 @@
 int main(void)
 {
 	char g;
+
 	char h;
 
 	g = 'a';
+
 	h = '1';
 
 	while
