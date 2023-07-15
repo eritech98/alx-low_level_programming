@@ -2,7 +2,7 @@
 
 /**
 *main - realy quick!
-*Return - I love ubi 0
+*Return: - I love ubi 0
 */
 
 int main(void)
