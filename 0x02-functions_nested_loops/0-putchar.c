@@ -1,8 +1,8 @@
 #include "main.h"
 
 	/**
-	 * main - print _putchar
-	 * is written by Erick
+	 * main - Entry point of my codes
+	 * 
 	 * Return: 0
 	 */
 
