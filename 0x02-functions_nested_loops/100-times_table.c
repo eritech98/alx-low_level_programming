@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_times_table - Prints multiplication table
+ *print_times_table - Prints multiplication table
  *
  * Description: Prints a multiplication table of a given size.
  * @n: Size of the table (0 <= n <= 15)

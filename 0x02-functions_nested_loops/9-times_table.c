@@ -1,9 +1,10 @@
 #include "main.h"
+/**
+ * times_table - Prints the multiplication table
+ *
+ * Description: Prints the multiplication table up to 9x9.
+ */
 
-
-	/**
-	 * times_table - prints the 9 times table, starting with 0
-	 */
 	void times_table(void)
 	{
 		int i, j, k;
