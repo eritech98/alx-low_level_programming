@@ -11,23 +11,23 @@
 
 	void print_alphabet_x10(void)
 	{
-		char er;
-		int p;
+		char ch;
+		int i;
 
 
-		p = 0;
+		i = 0;
 
 
-		while (p < 10)
+		while (i < 10)
 		{
-			er = 'a';
-			while (er <= 'z')
+			ch = 'a';
+			while (ch <= 'z')
 			{
-				_putchar(er);
-				er++;
+				_putchar(ch);
+				ch++;
 		}
 			_putchar('\n');
-			p++;
+			i++;
 		}
 	}
 
