@@ -7,20 +7,24 @@
  * @size: input
  * Return:void
  */
+
 void print_diagsums(int *a, int size)
 {
-	int erick, olando, p;
+	int sum1, sum2, p;
 
-	erick = 0;
-	olando = 0;
+	sum1 = 0;
+	sum2 = 0;
 
 	for (p = 0; p < size; p++)
 	{
-		erick = olando + a[p * size + p];
+		sum1 = sum1 + a[p * size + p];
 	}
 	for (p = size - 1; p >= 0; p--)
 	{
-		olando += a[p * size + (size - p - 1)];
+		sum2 += a[p * size + (size - p - 1)];
 	}
-	printf("%d, %d\n", erick, olando);
+	printf("%d, %d\n", sum1, sum2);
 }
+	
+
+
