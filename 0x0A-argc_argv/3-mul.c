@@ -16,7 +16,7 @@ int _atoi(char *s)
 	i = 0;
 	c = 0;
 	k = 0;
-	digit = 0;
+	erick = 0;
 
 	while (s[c] != '\0')
 		c++;
