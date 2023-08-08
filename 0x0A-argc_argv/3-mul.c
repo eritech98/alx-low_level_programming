@@ -28,7 +28,7 @@ int _atoi(char *s)
 
 		if (s[e] >= '0' && s[e] <= '9')
 		{
-			digit = s[e] - '0';
+			erick = s[e] - '0';
 			if (r % 2)
 				erick = -erick;
 			i = i * 10 + erick;
