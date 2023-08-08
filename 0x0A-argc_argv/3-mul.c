@@ -55,7 +55,7 @@ int _atoi(char *s)
  */
 int main(int argc, char *argv[])
 {
-	int result, e, r;
+	int result, n, p;
 
 	if (argc < 3 || argc > 3)
 	{
@@ -63,9 +63,9 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
-	e = _atoi(argv[1]);
-	r = _atoi(argv[2]);
-	result = e * r;
+	n = _atoi(argv[1]);
+	p = _atoi(argv[2]);
+	result = n * p;
 
 	printf("%d\n", result);
 
