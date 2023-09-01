@@ -6,7 +6,7 @@
  * binary_to_uint - FUNCtion that converts int to unsignedt int.
  * @b: character pointing to a string of 0 and 1 character.
  * Return: Unsigned int
- * 
+ *
  */
 
 
