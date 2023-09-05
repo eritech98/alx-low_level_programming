@@ -1,6 +1,8 @@
 #ifndef CFILESI_H
 #define CFILESI_H
 
+
+#include <stdio.h>
 #include <sys/types.h>
 #include <fcntl.h>
 #include <sys/stat.h>
