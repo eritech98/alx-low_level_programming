@@ -15,8 +15,8 @@
 
 	while (n > 0 || m > 0)
 	{
-		a = (n & 1);
-		b = (m & 1);
+		apple = (n & 1);
+		bmw = (m & 1);
 
 		if (apple != bmw)
 			Erick_toflip++;
